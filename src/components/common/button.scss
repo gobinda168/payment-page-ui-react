@@ -1,0 +1,24 @@
+.button {
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+
+  background-color: #ffffff;
+  margin-left: 0.5vw;
+  margin-right: 1vw;
+  height: 7vh;
+  width: 10.6vw;
+  padding: 0.1vw 0.5vw;
+  .left-icon {
+    width: 2vw;
+  }
+  .check {
+    height: 3vh;
+    padding: 0.5vw 0vw;
+    margin-left: 0;
+    cursor: pointer;
+  }
+}

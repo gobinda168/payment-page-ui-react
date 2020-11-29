@@ -1,0 +1,29 @@
+.input {
+  margin-left: 0.5vw;
+
+  .input-field {
+    border-radius: 2px;
+    border: solid 1px #dce3ea;
+    background-color: #ffffff;
+    width: fit-content;
+    padding-right: 0.5vw;
+    input {
+      padding: 2vh;
+      border: none;
+      &:focus {
+        outline: none;
+      }
+      outline: none;
+      &::placeholder {
+        font-family: Montserrat;
+        font-size: 0.8vw;
+      }
+    }
+  }
+  .label {
+    margin: 0;
+    margin-bottom: 0.4vh;
+    font-size: 0.8vw;
+    font-weight: 600;
+  }
+}
